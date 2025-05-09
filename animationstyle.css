@@ -1,0 +1,33 @@
+/* Animação básica de entrada */
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.fade-in.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.from-left {
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: opacity 1.2s ease-in-out, transform 1.3s ease-in-out;
+}
+
+.from-left.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.from-right {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: opacity 1.2s ease-in-out, transform 1.3s ease-in-out;
+}
+
+.from-right.animate {
+    opacity: 1;
+    transform: translateX(0);
+}

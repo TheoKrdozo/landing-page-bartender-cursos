@@ -80,6 +80,7 @@ header {
     display: flex;
     align-items: center;
     gap: 1rem;
+    text-decoration: none;
 }
 
 
@@ -88,8 +89,6 @@ header {
     color: var(--primary);
     text-transform: uppercase;
     letter-spacing: 2px;
-    /* border: 1px solid var(--primary); */
-    /* align-self: last baseline; */
 }
 
 /* Navigation */
